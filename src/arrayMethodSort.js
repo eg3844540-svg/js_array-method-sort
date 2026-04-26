@@ -1,8 +1,7 @@
 'use strict';
 
-/**
- * Implement method Sort
- */
+/* eslint-disable no-extend-native */
+
 function applyCustomSort() {
   Array.prototype.sort2 = function (compareFunction) {
     const arr = this;
